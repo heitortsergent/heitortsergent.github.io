@@ -1,0 +1,16 @@
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script>
+(function ($) {
+  $(document).ready(function(){
+    var $image = $('#randomGIF');
+    
+    $.getJSON('https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC')
+      .done(function(data) {
+        var imgWidth = $image.width();
+        $image.attr('src', data['data'].image_url);
+        $image.css({'min-width': imgWidth});
+      });
+  });
+}(jQuery));
+</script>
+
