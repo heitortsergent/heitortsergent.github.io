@@ -2,6 +2,9 @@
 markdown: redcarpet
 highlighter: pygments
 
+# Gems
+gems: [jekyll-paginate]
+
 # Site settings
 title: "Heitor Tashiro Sergent"
 description: > # this means to ignore newlines until "email:"
@@ -31,24 +34,10 @@ social:
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
-
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: //www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
-
+    
   - icon:	github
     url:	https://github.com/heitortsergent
     desc:	Fork me on github
     share_url:
     share_title:
     share_link:
-
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
